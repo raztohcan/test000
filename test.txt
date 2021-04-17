@@ -1,0 +1,6 @@
+import re
+ip_address = [“10.10.10.1”,”192.168.10.12”,”172.16.134.29”,”192.168.122.123”,”10.12.12.13”]
+print(“,”.join(ip_address))
+pesult=re.findall(r”192\.168\.\d+\.\d+”,”,”.join(ip_address))
+print (“Las Ips Clase C son: “,*result)
+
